@@ -14,13 +14,10 @@ The official Warp terminal theme with its signature blue accent and dark backgro
 ```bash
 # Clone the repository
 git clone https://github.com/silouanwright/warp-default-no-logo.git
-cd warp-default-no-logo
 
-# For the standard theme
-cp warp/* ~/.warp/themes/
-
-# For the darker variant
-cp warp_darker/* ~/.warp/themes/
+# Install themes
+cp warp-default-no-logo/warp/* ~/.warp/themes/        # Standard theme
+cp warp-default-no-logo/warp_darker/* ~/.warp/themes/  # Darker variant
 ```
 
 ## Using the Theme
