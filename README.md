@@ -9,7 +9,6 @@ The official Warp terminal theme with its signature blue accent and dark backgro
 
 ## Installation
 
-### Option 1: Clone and Copy
 ```bash
 # Clone the repository
 git clone https://github.com/silouanwright/warp-default-no-logo.git
@@ -24,22 +23,7 @@ cp warp_darker.yaml ~/.warp/themes/
 cp darker.jpg ~/.warp/themes/
 ```
 
-### Option 2: Clone and Symlink
-```bash
-# Clone the repository
-git clone https://github.com/silouanwright/warp-default-no-logo.git
-cd warp-default-no-logo
-
-# Symlink themes (automatically updates when you pull changes)
-ln -s $(pwd)/warp.yaml ~/.warp/themes/warp_no_logo.yaml
-ln -s $(pwd)/warp.jpg ~/.warp/themes/warp_no_logo.jpg
-
-# For the darker variant
-ln -s $(pwd)/warp_darker.yaml ~/.warp/themes/warp_darker.yaml
-ln -s $(pwd)/darker.jpg ~/.warp/themes/darker.jpg
-```
-
-### Using the Theme
+## Using the Theme
 1. Open Warp settings (⌘+,)
 2. Go to Appearance → Themes
 3. Select "Warp No Logo" or "Warp Darker" from the theme list
@@ -48,7 +32,7 @@ ln -s $(pwd)/darker.jpg ~/.warp/themes/darker.jpg
 
 - **Accent**: `#5299bf` (Blue)
 - **Background**: `#061229` (Dark Navy)
-- **Foreground**: `#b8bbc2` (Light Gray)
+- **Foreground**: `#ffffff` (Pure White)
 
 ## Features
 
