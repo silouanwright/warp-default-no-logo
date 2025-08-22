@@ -2,17 +2,47 @@
 
 The official Warp terminal theme with its signature blue accent and dark background, but with the Warp logo removed from the background image for a cleaner look.
 
+## Available Variants
+
+- **warp** - Original theme with logo removed
+- **warp_darker** - Darker variant with enhanced contrast
+
 ## Installation
 
-1. Copy the theme files to your Warp themes directory:
-   ```bash
-   cp warp.yaml ~/.warp/themes/
-   cp warp.jpg ~/.warp/themes/
-   ```
+### Option 1: Clone and Copy
+```bash
+# Clone the repository
+git clone https://github.com/silouanwright/warp-default-no-logo.git
+cd warp-default-no-logo
 
-2. Open Warp settings (⌘+,)
-3. Go to Appearance → Themes
-4. Select "Warp" from the theme list
+# Copy themes to Warp directory
+cp warp.yaml ~/.warp/themes/
+cp warp.jpg ~/.warp/themes/
+
+# For the darker variant
+cp warp_darker.yaml ~/.warp/themes/
+cp darker.jpg ~/.warp/themes/
+```
+
+### Option 2: Clone and Symlink
+```bash
+# Clone the repository
+git clone https://github.com/silouanwright/warp-default-no-logo.git
+cd warp-default-no-logo
+
+# Symlink themes (automatically updates when you pull changes)
+ln -s $(pwd)/warp.yaml ~/.warp/themes/warp_no_logo.yaml
+ln -s $(pwd)/warp.jpg ~/.warp/themes/warp_no_logo.jpg
+
+# For the darker variant
+ln -s $(pwd)/warp_darker.yaml ~/.warp/themes/warp_darker.yaml
+ln -s $(pwd)/darker.jpg ~/.warp/themes/darker.jpg
+```
+
+### Using the Theme
+1. Open Warp settings (⌘+,)
+2. Go to Appearance → Themes
+3. Select "Warp No Logo" or "Warp Darker" from the theme list
 
 ## Theme Colors
 

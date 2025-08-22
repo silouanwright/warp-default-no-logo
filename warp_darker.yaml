@@ -3,7 +3,7 @@ background: "#061229"
 details: darker
 foreground: "#ffffff"
 background_image:
-  path: warp.jpg
+  path: darker.jpg
   opacity: 60
 
 terminal_colors:
