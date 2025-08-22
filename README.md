@@ -8,8 +8,8 @@ The official Warp terminal theme with its signature blue accent and dark backgro
 
 | Theme | Preview |
 | --- | --- |
-| **warp** - Original theme with logo removed | <img src='warp/previews/warp.yaml.svg' width='300'> |
-| **warp_darker** - Same theme with darker background image | <img src='warp_darker/previews/warp_darker.yaml.svg' width='300'> |
+| **warp** - Original theme with logo removed | <img src='warp/previews/warp_preview.png' width='400'> |
+| **warp_darker** - Same theme with darker background image | <img src='warp_darker/previews/warp_darker_preview.png' width='400'> |
 
 ## Installation
 
