@@ -1,5 +1,7 @@
 # Warp Theme (No Logo)
 
+![Warp Theme Preview](example.png)
+
 The official Warp terminal theme with its signature blue accent and dark background, but with the Warp logo removed from the background image for a cleaner look.
 
 ## Available Variants
@@ -32,7 +34,7 @@ cp darker.jpg ~/.warp/themes/
 
 - **Accent**: `#5299bf` (Blue)
 - **Background**: `#061229` (Dark Navy)
-- **Foreground**: `#ffffff` (Pure White)
+- **Foreground**: `#d8dbe2` (Soft White - slightly adjusted for better readability)
 
 ## Features
 
@@ -45,8 +47,9 @@ cp darker.jpg ~/.warp/themes/
 
 This theme is based on the official [Warp theme](https://github.com/warpdotdev/themes/tree/main/warp_bundled) that comes bundled with Warp Terminal.
 
-This variant is identical to the official Warp theme except:
+This variant is based on the official Warp theme with these adjustments:
 - The Warp logo has been masked out from the background image for a cleaner, distraction-free appearance
-- All color values and settings remain exactly the same as the original
+- Foreground text color slightly brightened from `#b8bbc2` to `#d8dbe2` for improved readability
+- All other color values and settings remain the same as the original
 
 Original theme location: `~/.warp/themes/warp_bundled/warp.yaml`
