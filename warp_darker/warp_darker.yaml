@@ -1,9 +1,10 @@
+name: "Warp Darker"
 accent: "#5299bf"
 background: "#061229"
 details: darker
 foreground: "#d8dbe2"
 background_image:
-  path: warp.jpg
+  path: warp_darker.jpg
   opacity: 60
 
 terminal_colors:

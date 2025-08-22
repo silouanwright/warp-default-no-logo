@@ -7,7 +7,7 @@ The official Warp terminal theme with its signature blue accent and dark backgro
 ## Available Variants
 
 - **warp** - Original theme with logo removed
-- **warp_darker** - Darker variant with enhanced contrast
+- **warp_darker** - Same theme with a darker background image for reduced eye strain
 
 ## Installation
 
@@ -16,13 +16,11 @@ The official Warp terminal theme with its signature blue accent and dark backgro
 git clone https://github.com/silouanwright/warp-default-no-logo.git
 cd warp-default-no-logo
 
-# Copy themes to Warp directory
-cp warp.yaml ~/.warp/themes/
-cp warp.jpg ~/.warp/themes/
+# For the standard theme
+cp warp/* ~/.warp/themes/
 
 # For the darker variant
-cp warp_darker.yaml ~/.warp/themes/
-cp darker.jpg ~/.warp/themes/
+cp warp_darker/* ~/.warp/themes/
 ```
 
 ## Using the Theme

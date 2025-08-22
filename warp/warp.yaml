@@ -1,9 +1,10 @@
+name: "Warp No Logo"
 accent: "#5299bf"
 background: "#061229"
 details: darker
 foreground: "#d8dbe2"
 background_image:
-  path: darker.jpg
+  path: warp.jpg
   opacity: 60
 
 terminal_colors:
