@@ -1,3 +1,5 @@
-|Theme name | Preview|
-| --- | --- |
-|**[Warp Darker](warp_darker.yaml)**:|<img src='previews/warp_darker.yaml.svg' width='300'>|
+# Warp Shimmer Dark
+
+![Warp Shimmer Dark Preview](previews/warp_darker_with_bg.png)
+
+A darker variant of Warp Shimmer for enhanced focus during extended coding sessions.
